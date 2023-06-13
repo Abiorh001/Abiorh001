@@ -15,10 +15,7 @@ Web Frameworks:
 Database:
 - MySQL, PostgreSQL, Reddis
 
-Tools and Technologies:
-- Linux, Git
 
-## 🎯 Profile Hits Counter
-<!-- Place the link to your profile hits counter here -->
-[![Profile Hits](https://example.com/count.svg)](https://example.com)
+
+
 
