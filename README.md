@@ -5,16 +5,15 @@
 
 ## 📈 Stats
 Skills:
-- Languages: Python, C, C#, C++, CSS3, HTML5, JavaScript, Shell Script, LaTeX, Markdown
+- Languages: Python, C, JavaScript, Shell Script
 
-ML/DL:
-- Tensorflow, scikit-learn, NumPy, Pandas, Plotly, Keras
+
 
 Web Frameworks:
-- FastAPI, Flask, Django, jQuery
+- FastAPI, Flask
 
 Database:
-- MySQL, PostgreSQL
+- MySQL, PostgreSQL, Reddis
 
 Tools and Technologies:
 - Linux, Git
