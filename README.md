@@ -10,7 +10,7 @@ Skills:
 
 
 Web Frameworks:
-- FastAPI, Flask
+- Django, FastAPI, Flask, Java 
 
 Database:
 - MySQL, PostgreSQL, Reddis
