@@ -1,47 +1,59 @@
-<!-- Typing SVG -->
+<h1 align="center">Abiola Adedayo Adeshina</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=007ACC&lines=Hi+I'm+Abiola+Adeshina!;Building+Autonomous+AI+Systems!;Let's+create+amazing+things+together!">
+  <strong>AI Agent Infrastructure Engineer</strong><br />
+  Agent runtimes · Execution evidence · Evaluation
 </p>
 
-## 📈 Skills
-
-<div align="center">
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img alt="C" src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
-  <img alt="Java" src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" />
-  <img alt="Shell" src="https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
-</div>
-
-### Frameworks & Databases
-
-* **Web Frameworks:** Django, FastAPI, Flask
-* **Databases:** PostgreSQL, MySQL, Redis, Mongodb
+<p align="center">
+  <a href="https://github.com/Abiorh001">GitHub</a> ·
+  <a href="https://www.linkedin.com/in/abiolaadeshina/">LinkedIn</a> ·
+  <a href="https://twitter.com/abiorhmangana">X</a> ·
+  <a href="mailto:abiolaadeshinaadedayo@gmail.com">Email</a>
+</p>
 
 ---
 
-## 🔹 About Me
+I build the infrastructure around AI agents: how they execute tools, manage context and state, preserve evidence, and get evaluated.
 
-I’m a **software engineer from Nigeria**, passionate about building **production-ready autonomous AI systems**. I design infrastructure that allows AI agents to operate **event-driven, scalable, and composable** in real-world applications.
+Based in Nigeria, I’m the founder of **OmniRexflora Labs**, **Workstream Lead at Flow Research**, and an **Expert Contributor at Snorkel AI**. My work connects backend engineering, agent runtime design, and hands-on evaluation of coding agents.
 
-Currently, I focus on **open-source AI infrastructure** that powers autonomous agents with persistent memory, orchestration, and cloud-ready deployment.
+## Current work
 
----
+### [OmniCoreAgent](https://github.com/omnirexflora-labs/omnicoreagent) — Agent runtime and execution evidence
 
-## 🌟 Current Work & Projects
+I build and maintain an open-source Python agent harness that brings tool execution, MCP integrations, memory, context management, workspaces, and background tasks into one runtime.
 
-* **OmniCore Agent** — AI agent framework with routing, memory, and scheduling.
-* **OmniDaemon** — Event-driven runtime engine for autonomous agents.
-* **OmniMemory** — Persistent semantic memory for cross-session AI context.
-* **OmniCloud (coming soon)** — Cloud-native deployment and autoscaling platform.
+My current focus is **native tool calling, parallel tool execution, streaming, and execution telemetry**: connecting user requests, model interactions, tool calls, tool results, context changes, and final responses.
 
----
+I’m developing the path from that evidence to **application-specific offline evaluation**—using production behavior to inform controlled tests, rather than treating a recorded trace as an experiment or proof of success.
 
-## 🌐 Connect with Me
+### [Workstream](https://github.com/Flow-Research/workstream) — Governed contribution infrastructure
 
-* GitHub: [@Abiorh001](https://github.com/Abiorh001)
-* LinkedIn: [Abiola Adeshina](https://www.linkedin.com/in/abiolaadeshina/)
-* X (Twitter): [@abiorhmangana](https://twitter.com/abiorhmangana)
-* Email: [abiolaadeshinaadedayo@gmail.com](mailto:abiolaadeshinaadedayo@gmail.com)
+At Flow Research, I lead the engineering of infrastructure for coordinating, verifying, and recording work performed by humans, AI agents, or both.
 
----
+The work spans **identity and authorization, project-scoped permissions, versioned policies, immutable submissions, check evidence, and review/revision workflows**. The lifecycle is designed to produce trustworthy contribution records that preserve who did what, under which rules, and with what accepted outcome.
+
+**Currently under active v0.1 development.** A submission, a passing check, and an accepted contribution are different facts; the system must preserve those distinctions.
+
+### Snorkel AI — Coding-agent evaluation and benchmarking
+
+I create and review executable evaluation tasks covering terminal-based engineering, long-horizon coding, and research-reproduction workflows. I’ve completed **1,000+ task reviews** across projects, with authoring and review contributions spanning **Terminal-Bench** and other agent-evaluation programs.
+
+My work includes task specifications, reproducible environments, reference solutions, executable verifiers, rubric-based assessment, and repeated-run failure analysis.
+
+It spans **multi-turn pairwise model evaluation**—comparing trajectories for correctness, agency, and alignment—and **verifier-backed tasks run through Harbor** for RLVR-oriented workflows.
+
+## How I approach engineering
+
+**A trace is evidence, not an experiment. A verifier is only useful when it checks the right contract.**
+
+I care about explicit trust boundaries, reproducible tests, meaningful failure analysis, and preserving the evidence needed to explain what happened.
+
+My standard for engineering ownership is straightforward: explain the architecture, justify the tradeoffs, and reason about failure modes—not just produce working code.
+
+## Core stack
+
+**Backend and runtime:** Python, FastAPI, asyncio, AnyIO, PostgreSQL, Redis.  
+**Infrastructure and integration:** Docker, Linux, shell scripting, MCP, REST APIs, object storage.  
+**Evaluation:** Harbor, executable verifiers, rubric design, trajectory analysis, reproducibility, and failure analysis.
