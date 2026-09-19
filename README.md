@@ -14,9 +14,9 @@
 
 ---
 
-I build the infrastructure around AI agents: how they execute tools, manage context and state, preserve evidence, and get evaluated.
+I’m a software engineer focused on **AI agent infrastructure and evaluation**. I build the systems around AI agents: how they execute tools, manage context and state, preserve evidence, and get evaluated.
 
-Based in Nigeria, I’m the founder of **OmniRexflora Labs**, **Workstream Lead at Flow Research**, and an **Expert Contributor at Snorkel AI**. My work connects backend engineering, agent runtime design, and hands-on evaluation of coding agents.
+Based in Nigeria, I’m the founder of **OmniRexflora Labs**, **Workstream Lead at Flow Research**, and an **AI Expert Contributor at Snorkel AI**. My work connects backend engineering, agent runtime design, and hands-on evaluation of coding agents across languages, toolchains, and execution environments.
 
 ## Current work
 
@@ -40,9 +40,9 @@ The work spans **identity and authorization, project-scoped permissions, version
 
 I create and review executable evaluation tasks covering terminal-based engineering, long-horizon coding, and research-reproduction workflows. I’ve completed **1,000+ task reviews** across projects, with authoring and review contributions spanning **Terminal-Bench** and other agent-evaluation programs.
 
-My work includes task specifications, reproducible environments, reference solutions, executable verifiers, rubric-based assessment, and repeated-run failure analysis.
+This work takes me across languages and toolchains: understanding codebases, reviewing implementations, investigating failures, and checking whether tests establish the behavior required by the task contract.
 
-It spans **multi-turn pairwise model evaluation**—comparing trajectories for correctness, agency, and alignment—and **verifier-backed tasks run through Harbor** for RLVR-oriented workflows.
+My work includes task specifications, reproducible environments, reference solutions, executable verifiers, rubric-based assessment, and repeated-run failure analysis. It spans **multi-turn pairwise model evaluation**—comparing trajectories for correctness, agency, and alignment—and **verifier-backed tasks run through Harbor** for RLVR-oriented workflows.
 
 ## How I approach engineering
 
@@ -52,8 +52,9 @@ I care about explicit trust boundaries, reproducible tests, meaningful failure a
 
 My standard for engineering ownership is straightforward: explain the architecture, justify the tradeoffs, and reason about failure modes—not just produce working code.
 
-## Core stack
+## Tools and environments
 
-**Backend and runtime:** Python, FastAPI, asyncio, AnyIO, PostgreSQL, Redis.  
-**Infrastructure and integration:** Docker, Linux, shell scripting, MCP, REST APIs, object storage.  
+**Languages I’ve worked with:** C, C++, C#, Rust, Go, TypeScript, Python, Bash, Perl.  
+**Backend and runtime:** FastAPI, asyncio, AnyIO, PostgreSQL, Redis.  
+**Infrastructure and integration:** Docker, Linux, MCP, REST APIs, object storage.  
 **Evaluation:** Harbor, executable verifiers, rubric design, trajectory analysis, reproducibility, and failure analysis.
